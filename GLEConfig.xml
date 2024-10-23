@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family code="2082" desc="Lottery Game" organizationName="Interactive" studio="crdc">
+	<game name="Queen Of The Ocean WLA" version="1.0.1" gameengineversion="2" gamelogicversion="1.0" 
+		number="0" 
+		gamegroup="eGames" 
+		gametype="L" 
+		jackpotid=""
+		loadprevstate="N" 
+		numberGenerator="RNG" 
+		productId="1" 
+		spots="" 
+		betMultipliers="50,100,200,500,1000,2000,5000,10000" 
+		languages="en,en_US,zh_CN,pt_BR" 
+		skbPlatformVersion="1.4.0"
+        merchandisePrize="N"
+        stateful="N">
+
+		<!-- CRDC $0.50, $1, $2, $3, $5, $10 $20 -->
+		<!--<paymodel name="QueenOfTheOcean : 300-2082-001" modelid="300-2082-001"
+			revealId="2082"
+			revealVersionId="2082"
+			fixedminmax="Y"
+			hibethold="5.06"
+			lobethold="5.06"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			mincoins="50"
+			maxcoins="2000"
+			cointhreshold="0"
+			confidentlevelpct="95" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2082-001" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2082-001" />-->
+
+		<!-- RGS COM $5 -->
+		<!--<paymodel name="QueenOfTheOcean : 300-2082-002" modelid="300-2082-002"
+			revealId="2082"
+			revealVersionId="2082"
+			fixedminmax="Y"
+			hibethold="5.06"
+			lobethold="5.06"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			mincoins="50"
+			maxcoins="2000"
+			cointhreshold="0"
+			confidentlevelpct="95" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2082-002" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2082-002" />-->
+
+		<!-- BRZ $0.50, $1, $2, $5, $10, $20, $50, $100 -->
+		<paymodel name="QueenOfTheOcean : 300-2082-003" modelid="300-2082-003"
+			revealId="2082"
+			revealVersionId="2082"
+			fixedminmax="Y"
+			hibethold="35.00"
+			lobethold="35.00"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			mincoins="50"
+			maxcoins="2000"
+			cointhreshold="0"
+			confidentlevelpct="95" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2082-003" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2082-003" />
+
+		<denom currencycode="BRL" amount="0.01,0.03"/>
+		<denom currencycode="USD" amount="0.01" />
+		<denom currencycode="CNY" amount="0.01" />
+	</game>
+</family>
